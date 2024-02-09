@@ -1,0 +1,15 @@
+#main {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    grid-column: 2;
+    background-color: rgb(148, 148, 211);
+}
+#dashboard {
+    background-color: aqua;
+    grid-column: span;
+}
+#header {
+    display: grid;
+ }
+
