@@ -67,7 +67,7 @@ table {
     grid-row-end: 6;
     background-color: aqua;
     grid-column-end: auto;
-    min-height: 100vh;
+    min-height: 800vh;
     padding: 10px;
 }
 
@@ -118,6 +118,23 @@ nav {
  }
 
  #buttons {
-    width: 26vw;
-    height: 12vh;
+    width: 25vw;
+    height: 10vh;
+ }
+
+ #projects {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    min-height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+
+ }
+
+ #side-bar {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    background-color: antiquewhite;
  }
