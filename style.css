@@ -53,7 +53,7 @@ table {
     height:1fr;
     display: grid;
     grid-template-columns: 1fr 10fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
     grid-column: 2;
     background-color: rgb(148, 148, 211);
 }
@@ -67,7 +67,7 @@ table {
     grid-row-end: 6;
     background-color: aqua;
     grid-column-end: auto;
-    min-height: 800vh;
+    min-height: 100vh;
     padding: 10px;
 }
 
@@ -98,7 +98,11 @@ nav {
  }
 
  #search-bar {
-    width: 100vw;
+   max-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
  }
 
  input {
@@ -119,7 +123,7 @@ nav {
 
  #buttons {
     width: 25vw;
-    height: 10vh;
+   
  }
 
  #projects {
@@ -137,4 +141,10 @@ nav {
     grid-column-start: 3;
     grid-row-end: 3;
     background-color: antiquewhite;
+    height: 70vh;
+ }
+
+ img {
+   height: 25px;
+   border-radius: 10px;
  }
