@@ -148,3 +148,35 @@ nav {
    height: 25px;
    border-radius: 10px;
  }
+
+ .img2 {
+   height: 70px;
+   width: 70px;
+   margin-left: 50px;
+   margin-right: 20px;
+   border-radius: 50px;
+ }
+
+ #full-name {
+   font-size: 20px;
+ }
+
+ #buttons {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   font-size: 30px;
+ }
+
+ .new {
+   border-radius: 30px;
+   padding :05px;
+ }
+
+ .share {
+   border-radius: 30px;
+ }
+
+ .upload {
+   border-radius: 30px;
+ }
