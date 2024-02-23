@@ -113,7 +113,10 @@ nav {
  }
 
  #first-name {
-    width:20vw
+   display: flex;
+    justify-content: flex-end;
+    width:20vw;
+    gap: 20px;
  }
 
  #full-name {
@@ -133,6 +136,7 @@ nav {
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
+
 
  }
 
@@ -158,6 +162,8 @@ nav {
  }
 
  #full-name {
+   display: flex;
+   align-items: flex-end;
    font-size: 20px;
  }
 
@@ -170,13 +176,59 @@ nav {
 
  .new {
    border-radius: 30px;
-   padding :05px;
+   padding-left :20px;
+   padding-right: 20px;
  }
 
  .share {
    border-radius: 30px;
+   padding-left :20px;
+   padding-right: 20px;
  }
 
  .upload {
    border-radius: 30px;
+   padding-left :20px;
+   padding-right: 20px;
+ }
+
+#calculator {
+   display: flex;
+   flex-direction: column;
+   min-height: 10rem;
+   align-items: center;
+
+}
+
+ .img3 {
+   width: 20rem;
+   height: 20rem;;
+ }
+
+ .img4 {
+   width: 20rem;
+   height: 20rem;;
+ }
+
+ .img5 {
+   width: 20rem;
+   height: 20rem;;
+ }
+
+ .img6 {
+   width: 20rem;
+   height: 20rem;;
+ }
+
+ #sign-up-page {
+   display: flex;
+   flex-direction: column;
+   height: 10rem;
+   align-items: center;
+ }
+ .card {
+  display: flex;
+   flex-direction: column;
+   height: 10rem;
+   align-items: center;
  }
