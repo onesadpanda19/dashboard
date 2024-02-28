@@ -77,6 +77,8 @@ table {
 }
 .input-area {
     display: flex;
+    flex-grow: 3;
+    justify-content: space-between;
 }
 
 nav {
@@ -88,10 +90,11 @@ nav {
 }
 
 #header {
-    min-width: 100%;
+    width: 100%;
     height: 15vh;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 5px 5px 15px rgba(17, 19, 18, .75);
  }
  .search {
     width: 100%;
@@ -102,31 +105,44 @@ nav {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-between;
  }
 
  input {
     margin-left: 40px;
     width: 300px;
     margin-right: 40vw;
-    border-radius: 20px;
+    border-radius: 2rem;
  }
 
  #first-name {
-   display: flex;
+    width: fit-content;
+    display: flex;
     justify-content: flex-end;
-    width:20vw;
+    width:28vw;
     gap: 20px;
  }
 
  #full-name {
+    font-size: 3rem;
     width: 60vw;
     height: 12vh;
  }
 
+ .full-name2 {
+  font-size: 3rem;
+
+ }
+ 
+
  #buttons {
+  width: 100%;
+    display: flex;
+    align-items: end;
     width: 25vw;
-   
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 20px;
  }
 
  #projects {
@@ -167,38 +183,26 @@ nav {
    font-size: 20px;
  }
 
- #buttons {
-   display: flex;
-   justify-content: center;
-   gap: 20px;
-   font-size: 30px;
- }
-
  .new {
+   font-size: 20px;
    border-radius: 30px;
    padding-left :20px;
    padding-right: 20px;
  }
 
  .share {
+  font-size: 20px;
    border-radius: 30px;
    padding-left :20px;
    padding-right: 20px;
  }
 
  .upload {
+  font-size: 20px;
    border-radius: 30px;
    padding-left :20px;
    padding-right: 20px;
  }
-
-#calculator {
-   display: flex;
-   flex-direction: column;
-   min-height: 10rem;
-   align-items: center;
-
-}
 
  .img3 {
    width: 20rem;
@@ -220,12 +224,6 @@ nav {
    height: 20rem;;
  }
 
- #sign-up-page {
-   display: flex;
-   flex-direction: column;
-   height: 10rem;
-   align-items: center;
- }
  .card {
   display: flex;
    flex-direction: column;
