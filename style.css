@@ -48,6 +48,11 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: roboto;
+  src: url(https://fonts.googleapis.com)
+}
+
 #main {
     margin: 0px;
     height:1fr;
@@ -55,7 +60,7 @@ table {
     grid-template-columns: 1fr 10fr;
     grid-template-rows: 1fr;
     grid-column: 2;
-    background-color: rgb(148, 148, 211);
+    font-family: roboto;
 }
 
 #dashboard {
@@ -101,7 +106,7 @@ nav {
  }
 
  #search-bar {
-   max-height: 100%;
+    max-height: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +136,6 @@ nav {
 
  .full-name2 {
   font-size: 3rem;
-
  }
  
 
@@ -152,8 +156,6 @@ nav {
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
-
-
  }
 
  #side-bar {
@@ -230,3 +232,9 @@ nav {
    height: 10rem;
    align-items: center;
  }
+
+ h2{
+  font-size: 2rem;
+ }
+
+ 
