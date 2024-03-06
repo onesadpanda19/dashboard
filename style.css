@@ -80,7 +80,18 @@ table {
     font-size: 30px;
     margin: 20px;
 }
-.input-area {
+
+.svg {
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.svg2 {
+  margin-top: 10rem;
+}
+
+.input-area { 
     display: flex;
     flex-grow: 3;
     justify-content: space-between;
@@ -190,6 +201,7 @@ nav {
    border-radius: 30px;
    padding-left :20px;
    padding-right: 20px;
+   background-color: aqua;
  }
 
  .share {
@@ -197,6 +209,7 @@ nav {
    border-radius: 30px;
    padding-left :20px;
    padding-right: 20px;
+   background-color: aqua;
  }
 
  .upload {
@@ -204,11 +217,12 @@ nav {
    border-radius: 30px;
    padding-left :20px;
    padding-right: 20px;
+   background-color: aqua;
  }
 
  .img3 {
    width: 20rem;
-   height: 20rem;;
+   height: 20rem;
  }
 
  .img4 {
@@ -218,12 +232,12 @@ nav {
 
  .img5 {
    width: 20rem;
-   height: 20rem;;
+   height: 20rem;
  }
 
  .img6 {
    width: 20rem;
-   height: 20rem;;
+   height: 20rem;
  }
 
  .card {
