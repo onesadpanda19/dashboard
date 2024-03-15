@@ -124,12 +124,18 @@ nav {
     justify-content: space-between;
  }
 
- input {
-    margin-left: 40px;
-    width: 300px;
-    margin-right: 40vw;
-    border-radius: 2rem;
- }
+input {
+  border-radius: 2rem;
+}
+
+.input1 {
+  margin-right: 10vw;
+  width: 16rem;
+}
+
+ .input2 {
+  width: 8rem;
+}
 
  #first-name {
     width: fit-content;
@@ -256,3 +262,6 @@ nav {
   width: 4rem;
  }
  
+ .weather_Search {
+  width: 3rem;
+ }

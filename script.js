@@ -10,7 +10,7 @@ axios.get('https://api.api-ninjas.com/v1/weather?city=pocatello', {
     
     console.log(res.data)
     
-    div.textContent = res.data.temp
+    
 }).catch ((err) => {
     console.log(err.message)
 })
