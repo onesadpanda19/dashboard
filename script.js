@@ -22,16 +22,16 @@ axios.get(`https://api.api-ninjas.com/v1/weather?city=${searchValue}`, {
         'X-Api-Key': 'EECScCOXhR8nxF19K2ElnA==RYF3uhKbpK4QkvOz'
     }
 }).then ((res) => {
-    console.log(res.data)                                                                                                      
+    console.log(res.data) 
+
     weatherDiv.innerHTML = `
     <div class="resultsContainer">
       <p class="weatherResults">The current temperature is ${res.data.temp}C</p>
-      <P class="maxTemp">Max temp is ${res.data.max_temp}C</p>
-      <p class="minTemp">Min temp is ${res.data.min_temp}C</p>
-      <p class="feelsLike">Feels like ${res.data.feels_like}C</p>
+      <P class="weatherResults">Max temp is ${res.data.max_temp}C</p>
+      <p class="weatherResults">Min temp is ${res.data.min_temp}C</p>
+      <p class="weatherResults">Feels like ${res.data.feels_like}C</p>
     </div>
     `
-    throw {message: 'Error!'}
 }).catch ((err) => {
     console.log(err.message)
     weatherDiv.textContent = 'Something went wrong, please try again later!'
