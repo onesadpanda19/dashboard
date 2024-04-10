@@ -186,8 +186,10 @@ input {
     grid-row-start: 1;
     grid-column-start: 3;
     grid-row-end: 3;
-    background-color: antiquewhite;
+    background-color: aqua;
     height: 70vh;
+    border-radius: 10px;
+    margin-top: 2rem;
  }
 
  img {
@@ -220,7 +222,7 @@ input {
    border-radius: 30px;
    padding-left :20px;
    padding-right: 20px;
-   background-color: aqua;
+   background-color: antiquewhite;
  }
 
  .share {
@@ -228,7 +230,7 @@ input {
    border-radius: 30px;
    padding-left :20px;
    padding-right: 20px;
-   background-color: aqua;
+   background-color: antiquewhite;
  }
 
  .upload {
@@ -236,44 +238,34 @@ input {
    border-radius: 30px;
    padding-left :20px;
    padding-right: 20px;
-   background-color: aqua;
+   background-color: antiquewhite;
  }
 
- .img3 {
-   width: 20rem;
-   height: 20rem;
- }
-
- .img4 {
-   width: 20rem;
-   height: 20rem;;
- }
-
- .img5 {
-   width: 20rem;
-   height: 20rem;
- }
-
- .img6 {
-   width: 20rem;
-   height: 20rem;
+ .imgC {
+   width: 15rem;
+   height: 15rem;
  }
 
  .card {
   display: flex;
    flex-direction: column;
-   height: 10rem;
    align-items: center;
  }
 
  h2{
   font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 5px;
  }
 
  #weather {
-  height: 5rem;
-  width: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   margin-bottom: 2rem;
+  gap: 1rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
  }
  
  .weather_Search {
@@ -281,11 +273,27 @@ input {
  }
 
  .weatherResults {
-  color: aqua;
+  color: black;
   margin-top:2rem
  }
 
  button {
   border: none;
+ }
+
+ .bigCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin: 2rem;
+  border-left: 1rem solid;
+  border-color: blue;
+ }
+ 
+ .svgc {
+  display: flex;
+  justify-content: center;
  }
  
